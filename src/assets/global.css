@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Habbo, sans-serif;
+    background: url(https://images.habbo.com/habbo-web/origins-america/en/assets/images/habbo_background.683cff59.gif);
+
+    margin-left: auto;
+    margin-right: auto;
+    max-width:60vw;
+    overflow-y:scroll;
+}
+
+@font-face {
+    font-family: 'Habbo';
+    src: url('~@/assets/fonts/Ubuntu-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+aside {
+    padding-top:1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    text-align:center;
+}
+
+main {
+    background-color:#f3c900;
+    border-radius: 15px;
+    border: 1px solid #050a0e;
+    box-shadow: 0 2px 3px rgba(6,19,25,.7);
+    padding:1rem;
+    min-height:70vh;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul {    
+    display: flex;
+    flex-direction: row;
+    gap:.25rem;
+    list-style: none;
+}
+header li {
+    background-color: #ffb31b;
+    border: 1px solid #141414;
+    border-bottom:0;
+    border-radius: 10px 10px 0 0;
+    padding: .5rem 1rem .5rem 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap:.5rem;
+}
+
+header .active {
+    background-color: #f3c900;
+    color: #402d0a;
+    
+    margin-bottom: -1px;
+}
+
+header img {
+    width: 2rem;
+    height:2rem;
+}
+
+footer {
+    padding-top:1rem;
+    font-size:.75rem;
+    color: #7ecaee;
+    text-align: center;
+}
+
+button {
+    box-shadow: 0 3px 0 1px rgba(0,0,0,.3);
+    display: inline-block;
+    line-height: 1.2;
+    text-align: center;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: #0f7dbc;
+    border-color: #2a9cde;
+    color: #fff;
+    font-size: 16px;
+    padding: .25rem .5rem .25rem .5rem;
+    
+}
+
+.fake-btn {
+    box-shadow: 0 3px 0 1px rgba(0,0,0,.3);
+    display: inline-block;
+    line-height: 1.2;
+    text-align: center;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: #b73e3e;
+    border-color: #823000;
+    color: #fff;
+    font-size: 16px;
+    padding: .25rem .5rem .25rem .5rem;
+}
+
+button:hover {
+    background-color: #2a9cde;
+    border-color: #53bdf9;
+}
+
+button:disabled {
+    background-color: #d4d4d4;
+    border-color: #acacac;
+    color:#111;
+}
+
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    background: #335e7a;
+    
+}
+::-webkit-scrollbar-thumb {
+    border: 2px solid #335e7a;
+    background: #477899; 
+    border-radius: .5rem;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #6298bd; 
+}

@@ -1,0 +1,29 @@
+[
+    {
+      "name": "Habbo Cola Machine",
+      "category": "Rares",
+      "prices": [
+        { "amount": 50, "date": "2024-01-01" },
+        { "amount": 57, "date": "2024-01-02" },
+        { "amount": 52.6, "date": "2024-01-03" }
+      ]
+    },
+    {
+      "name": "Petal Patch",
+      "category": "Rares",
+      "prices": [
+        { "amount": 30, "date": "2024-01-01" },
+        { "amount": 35, "date": "2024-01-01" }
+      ]
+    },
+    {
+      "name": "Sofa",
+      "category": "HC",
+      "prices": [
+        { "amount": 10, "date": "2024-06-18" },
+        { "amount": 70, "date": "2024-06-21" },
+        { "amount": 100, "date": "2024-06-25" }
+      ]
+    }
+]
+  
