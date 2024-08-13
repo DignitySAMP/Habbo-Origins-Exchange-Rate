@@ -4,6 +4,14 @@ This project was started shortly after the launch of Sulake's Habbo: Origins. Th
 
 For this reason, motivation has been lost in the project. It's in a semi operational state, the only pending tasks are to add per-hotel support (right now all prices are global) and write a simple JS Discord bot that allows the altering of the "stores/creditHistory.json" file, which is responsible for updating the prices.
 
+## Preview
+
+![1](https://github.com/user-attachments/assets/c7706b2a-dc2c-4288-b877-525b7cb70dc4)
+![2](https://github.com/user-attachments/assets/e6f00bd4-3ab5-4173-8366-5d7df7f1e782)
+![3](https://github.com/user-attachments/assets/b333b36d-0934-456a-9165-9379fc905bda)
+![4](https://github.com/user-attachments/assets/7d923e39-f7e1-43c9-ae1b-fe1d1404037a)
+
+
 ## Features
 
  - Habbo Origins catalogue ported over into a JSON file (although it's missing some of the new items, last update to our catalogue file was on the 26th of July)
